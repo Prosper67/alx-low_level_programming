@@ -2,19 +2,15 @@
 
 /**
  * print alphabet - prints lowercase alphabet
- * Return: 0
  */
 
 void print_alphabet(void)
 {
-	char alpha;
+	int j;
 
-	alpha = 'a';
-
-	while (alpha <= 'z')
+	for (j = 'a'; j <= 'z'; j++)
 	{
-		_putchar(alpha);
-		alpha++;
+		_putchar(j);
 	}
 	_putchar('\n');
 }
