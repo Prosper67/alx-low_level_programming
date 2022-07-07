@@ -23,6 +23,6 @@ int main(void)
 		if ((sum <= 4000000) && (sum % 2 == 0))
 			sum_of_events += sum;
 	}
-	printf("%d\n ", sum_of_events);
+	printf("%d\n", sum_of_events);
 	return (0);
 }
