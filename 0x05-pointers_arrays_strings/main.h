@@ -1,12 +1,14 @@
-#define MAIN_H
 #ifndef MAIN_H
+#define MAIN_H
+
+#include <stdlib.h>
 
 /**
  * _putchar - puts character to standard output
  * @c: character to put to standard output
  */
 
-int _putchcar(cahar c);
+int _putchar(char c);
 
 /**
  * reset_to_98 - takes a pointer to an int as a parameter and updates the value it points to 98
@@ -79,7 +81,7 @@ void print_array(int *a, int n);
  * @src: this is the source to copy
  */
 
-char *_strcpy(char *dset, car *src);
+char *_strcpy(char *dset, char *src);
 
 /**
  * _atoi - convert string to int
