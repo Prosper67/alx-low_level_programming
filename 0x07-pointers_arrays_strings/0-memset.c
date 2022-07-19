@@ -3,22 +3,18 @@
 /**
  * _memset - fill n bytes of memory with a cosntant value
  * @s: pointer to memory area
- * @b: constant value
- * @n: number f bytes to fill
- * Return: memory area
+ * @b: character to fill the memory with
+ * @n: number of bytes to fill
+ * Return:pointer to the filled memory area @s
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int size = n;
+	unsigned int index;
+	unsigned char *memory = s, value = b;
 
-	if (size > 0)
-	{
-		int i;
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-		for (i = 0; i < size; i++)
-			s[1] = b;
-	}
-
-	return (s);
+	return (memory);
 }
