@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+
 /* This file contains the prototypes of all the functions
  * included in the static library named libmy.a
  */
