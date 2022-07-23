@@ -35,7 +35,7 @@ void print_buffer(char *b, int size)
 				break;
 
 			else if (*(b + index + byte) >= 31 &&
-					*(b + index + byte) <= 126)
+				*(b + index + byte) <= 126)
 				printf("%c", *(b + index + byte));
 
 			else
@@ -47,6 +47,7 @@ void print_buffer(char *b, int size)
 
 		printf("\n");
 	}
+
 	if (size <= 0)
 		printf("\n");
 }
