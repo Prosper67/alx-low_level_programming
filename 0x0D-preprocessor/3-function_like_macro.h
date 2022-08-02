@@ -1,0 +1,6 @@
+#define FUNCTION_LIKE_MACRO
+#ifndef FUNCTION_LIKE_MACRO
+
+#define ABX(x) (((x) < 0) ? (-x) : (x))
+
+#endif
