@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stddef.h>
+
 /**
  * This file contains prototypes for all the functions used in the bit manipulation project
  */
